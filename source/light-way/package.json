@@ -1,0 +1,13 @@
+{
+  "name": "live-watching",
+  "description": "A seed project for editing the css/html and see it live updating",
+  "repository": "",
+  "version": "0.0.3",
+  "devDependencies": {
+    "connect-livereload": "=0.5.3",
+    "express": "=4.12.0",
+    "gulp": "=3.8.10",   
+    "gulp-livereload": "=3.4.0",
+    "gulp-open": "=0.3.2"
+  }
+}
