@@ -1,3 +1,70 @@
 .less-hello {
   background: lightgoldenrodyellow;
 }
+
+.name-card-container {
+
+  //例1（小米米官网）：font-family: "Arial","Microsoft YaHei","黑体","宋体",sans-serif;
+  //
+  //例2（淘宝技术研发中心）：font: 12px/1.5 Tahoma,Helvetica,Arial,'宋体',sans-serif;
+  //
+  //例3（加网 ）：font: 14px/1.5 'Microsoft YaHei',arial,tahoma,\5b8b\4f53,sans-serif;
+  //
+  //例4（淘宝UED）：font: 12px/1 Tahoma,Helvetica,Arial,"\5b8b\4f53",sans-serif;
+  //
+  //例5（一淘UX）:font-family: Helvetica, 'Hiragino Sans GB', 'Microsoft Yahei', '微软雅黑', Arial, sans-serif;
+  //
+  //font: 12px/1 Tahoma,Helvetica,Arial,"\5b8b\4f53",sans-serif;
+  //
+  //font-family: "Arial","Microsoft YaHei","黑体","宋体",sans-serif;
+
+  font: 15px/1.5 Tahoma,Helvetica,Arial,'宋体',sans-serif;
+
+  background-color: #fbfbfb;
+
+  box-shadow: 5px 5px 2.5px #888888;
+
+  .nc_row_1 {
+
+    display: -webkit-box;
+    height: 4em;
+    padding-top: 1em;
+
+    .nc_avatar {
+
+      img {
+        max-width: 100%;
+        height: auto;
+      }
+
+      padding-left: 1em;
+      width:46px;
+      height:46px;
+      border-radius:46px
+    }
+
+    .nc_intro {
+
+      margin-left: 3em;
+
+      .nc_mobile {
+        margin-top: 0.2em;
+      }
+    }
+
+  }
+
+  .nc_row_2 {
+
+    padding-top: 2em;
+    height: 6em;
+
+    padding-left: 1em;
+
+    .nc_address {
+      padding-top: .5em;
+    }
+
+  }
+
+}
